@@ -11,7 +11,7 @@ import pages.HomePage;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SearchPanelBox {
+public class SearchPanelBoxTest {
     private WebDriver driver;
     private static String siteUrl = "https://www.demoqa.com/books";
 
