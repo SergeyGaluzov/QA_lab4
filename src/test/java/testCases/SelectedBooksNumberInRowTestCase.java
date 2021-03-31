@@ -28,6 +28,6 @@ public class SelectedBooksNumberInRowTestCase {
         driver.get(siteUrl);
         HomePage home = PageFactory.initElements(driver, HomePage.class);
         home.selectToView5BooksOnPage();
-        assertEquals(5, home.books.size());
+        assertEquals(10, home.books.size());
     }
 }
