@@ -36,7 +36,7 @@ public class LoginTestCase {
         LoginPage login = PageFactory.initElements(driver, LoginPage.class);
 
         home.clickLogin();
-        login.enterUsername("SergeyGaluzov");
+        login.enterUsername("SergeyGaluzo");
         login.enterPassword("A123=4567890g@");
         login.clickLogin();
 
